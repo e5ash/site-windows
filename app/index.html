@@ -1,0 +1,802 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Title</title>
+
+	<!-- Meta -->
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1">
+
+	<!-- Styles -->
+	<link rel="stylesheet" href="template/styles/css/style.css" />
+	<link rel="stylesheet" href="template/styles/css/responsive.css" />
+
+	<!-- Scripts -->
+	<script src="template/scripts/libs.js"></script>
+	<script src="template/scripts/common.js"></script>
+
+	<!--[if lt IE 9]>
+			<script>
+				document.createElement('header');
+				document.createElement('nav');
+				document.createElement('main');
+				document.createElement('section');
+				document.createElement('article');
+				document.createElement('aside');
+				document.createElement('footer');
+			</script>
+	<![endif]-->
+</head>
+<body>
+	<div class="popup" id="popup-white">
+		<div class="popup__close" data-fancybox-close></div>
+		<div class="popup__title">Заполните форму ниже</div>
+		<div class="popup__desc">и наш менеджер свяжется с вами в ближайшее время</div>
+		<form>
+			<input type="text" class="popup__input input input_white" placeholder="Ваше имя" name="name">
+			<input type="tel" class="popup__input input input_white input_phone" placeholder="Ваш контактный номер телефона" required="required" name="phone">
+			<div class="policy">
+				<div class="checkbox" requred>
+					<input type="checkbox" required=""><label>Заполняя данную форму, Вы соглашаетесь с <a data-fancybox data-src="#popup-policy" href="javascript:;">политикой конфидициальности</a> нашего сайта.</label>
+				</div>
+			</div>
+			<button class="popup__button button button_green button_large"><span><i class="icon icon-mail-green"></i></span>ОТПРАВИТЬ ЗАЯВКУ</button>
+		</form>
+	</div>
+	<div class="popup popup_red" id="popup-red">
+		<div class="popup__close" data-fancybox-close></div>
+		<div class="popup__title">Заполните форму ниже</div>
+		<div class="popup__desc">и наш менеджер свяжется с вами в ближайшее время</div>
+		<form>
+			<input type="text" class="popup__input input input_white" placeholder="Ваше имя" name="name">
+			<input type="tel" class="popup__input input input_white input_phone" placeholder="Ваш контактный номер телефона" required="required" name="phone">
+			<div class="policy">
+				<div class="checkbox" requred>
+					<input type="checkbox" required=""><label>Заполняя данную форму, Вы соглашаетесь с <a data-fancybox data-src="#popup-policy" href="javascript:;">политикой конфидициальности</a> нашего сайта.</label>
+				</div>
+			</div>
+			<button class="popup__button button button_green button_large"><span><i class="icon icon-mail-green"></i></span>ОТПРАВИТЬ ЗАЯВКУ</button>
+		</form>
+	</div>
+	<div class="popup" id="popup-white-calc">
+		<div class="popup__close" data-fancybox-close></div>
+		<div class="popup__title">Заполните форму ниже</div>
+		<div class="popup__desc">и наш менеджер свяжется с вами в ближайшее время</div>
+		<form>
+			<input type="text" class="popup__input input input_white" placeholder="Ваше имя" name="name">
+			<input type="tel" class="popup__input input input_white input_phone" placeholder="Ваш контактный номер телефона" required="required" name="phone">
+			<input type="text" class="hidden" name="width">
+			<input type="text" class="hidden" name="height">
+			<input type="text" class="hidden" name="windowCount">
+			<input type="text" class="hidden" name="windowType">
+			<input type="text" class="hidden" name="laminaton">
+			<input type="text" class="hidden" name="color">
+			<input type="text" class="hidden" name="type">
+			<input type="text" class="hidden" name="profile">
+			<input type="text" class="hidden" name="fittings">
+			<div class="policy">
+				<div class="checkbox" requred>
+					<input type="checkbox" required=""><label>Заполняя данную форму, Вы соглашаетесь с <a data-fancybox data-src="#popup-policy" href="javascript:;">политикой конфидициальности</a> нашего сайта.</label>
+				</div>
+			</div>
+			<button class="popup__button button button_green button_large"><span><i class="icon icon-mail-green"></i></span>ОТПРАВИТЬ ЗАЯВКУ</button>
+		</form>
+	</div>
+	<div class="popup popup_policy" id="popup-policy">
+		<div class="popup__close" data-fancybox-close></div>
+		<div class="popup__title">Политикой конфидициальности</div>
+		<div class="popup__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga voluptatum labore reprehenderit sed aperiam impedit fugit eaque totam ad ducimus optio, velit, quam reiciendis rerum nulla. Expedita dolore quas nisi ducimus debitis tenetur perferendis quae, facilis atque sint suscipit et doloremque, iste dolorum ratione! Magni quasi voluptatem cupiditate dolor animi ipsum eaque, necessitatibus, repellendus laborum expedita reprehenderit quidem repudiandae. Amet hic similique, ipsum, accusamus quis atque ullam blanditiis, sunt a numquam et mollitia dicta quod. Dolores, facilis repellendus. Vel accusantium laboriosam animi qui modi blanditiis non ea quidem sed cupiditate quo neque cum rerum omnis laborum, officiis quasi, error ipsam labore! Blanditiis eveniet consequuntur nulla, quis rem, assumenda earum nostrum repudiandae minima sit! Iste ducimus odio unde, itaque porro dolorem enim fuga harum? Dicta eveniet temporibus sed nesciunt architecto beatae reiciendis dolorem perspiciatis provident quos quis quae cupiditate tenetur, doloremque ab molestias corporis facilis reprehenderit aspernatur laboriosam illum blanditiis odit nostrum consequuntur aut. Numquam eos reiciendis quisquam saepe nostrum laborum cumque iste maxime placeat aut provident, aperiam, rem modi reprehenderit enim! Cupiditate ipsam totam, commodi ab recusandae quidem tenetur dolore maxime mollitia. Quia, ipsum doloribus, cumque vero veritatis fugit deleniti officia ducimus accusantium sit explicabo sequi fugiat, distinctio alias. Aut perferendis, eius ex in ipsa asperiores quia blanditiis? Eius ab sunt rerum nemo ratione. Vel est voluptatum officia modi reiciendis dignissimos maxime, quos quidem nisi ex, odio sed dicta aliquid fugit accusamus perferendis molestias dolor, saepe neque sunt asperiores. Nobis necessitatibus placeat, quaerat mollitia laboriosam, voluptatem pariatur non, distinctio nihil libero accusantium nulla illum quia cupiditate. Dolorum ab tenetur, explicabo consequuntur saepe harum. Sint, quos. Fuga quis aut optio accusamus. Vitae fugiat odit porro. Delectus similique sunt, ipsa blanditiis libero aliquam quaerat et accusantium nesciunt, aut illum pariatur perspiciatis eveniet qui iure minus eligendi sit aliquid optio, voluptates doloremque! Voluptatem dolorum labore doloremque mollitia saepe quod consequatur obcaecati autem deleniti sapiente numquam natus distinctio vel veritatis aperiam error accusamus nesciunt dicta, laudantium a doloribus. Inventore id sit tempora laborum illo commodi, eum itaque quasi? Officia odio veritatis eligendi autem veniam necessitatibus error ipsam consequuntur nulla voluptate exercitationem explicabo accusantium, doloremque dolor, quidem ex animi nam accusamus architecto, quibusdam quaerat tenetur officiis distinctio! Tempore itaque, necessitatibus nemo obcaecati. Quis natus, quos tempore eligendi quam ipsa sapiente praesentium, voluptas dolorum quas saepe labore. Tempore, illum, repellat! Vero in dolor modi accusantium, porro deserunt dolorum veritatis beatae autem fugiat aliquid blanditiis quo, tempore earum sint eligendi sed necessitatibus, quae ea. Voluptas, asperiores, ratione! Unde culpa consectetur natus, quos earum nisi eum a assumenda sit, aspernatur illo reiciendis, facilis porro. Reprehenderit commodi nulla soluta nostrum dicta similique dolorum fugit, ad illum minus nihil iusto molestiae atque iste dolores quo necessitatibus quis, laborum, voluptates molestias. Cumque vel ipsum, tempore iste aspernatur quas amet, qui saepe quia voluptate dolorem similique eveniet commodi ab, ducimus eum culpa expedita excepturi quod obcaecati placeat. Temporibus distinctio repellat incidunt dicta quidem beatae! Suscipit fugit facilis non animi error, atque enim vero cum id minus fugiat. Dolorum tenetur delectus doloribus voluptate incidunt, possimus maxime molestiae deserunt dolores temporibus sequi consequuntur eum. Rerum dolores eos molestias nobis vitae nihil magnam veritatis iste sapiente doloribus, beatae deleniti hic atque molestiae ducimus nisi illum fuga cumque dicta facilis sed voluptatum. Possimus animi officiis voluptates, fuga, assumenda ullam aperiam inventore, modi perspiciatis quos autem officia, vitae! Aut omnis delectus neque beatae, excepturi provident saepe perferendis, facilis expedita et velit voluptate officia iure. Dolorem quibusdam unde laborum, iusto ipsa, facere obcaecati cupiditate, rerum alias esse beatae facilis, dolor. Obcaecati nulla cum perspiciatis sit consequatur nisi voluptas dignissimos, sunt soluta nihil, commodi modi nostrum ducimus odit repellendus animi. Harum officiis officia, quaerat pariatur consectetur provident a nobis. Minima consectetur voluptate, aliquam alias quisquam vero, repellat ducimus inventore, quas placeat dolore. Provident officia, aut alias magni ad quibusdam eveniet quod quos a. Hic voluptate adipisci voluptatum ea quod doloribus facere fuga reiciendis architecto quo deserunt voluptates aliquam nobis harum, illum, quam dicta. Nemo provident in a itaque architecto id, molestias ab veritatis suscipit reprehenderit maiores quisquam rem sit inventore error accusantium, doloribus pariatur maxime non sapiente cumque, nesciunt. Alias nihil tempora voluptatibus atque illum laudantium quis voluptas exercitationem ullam neque reiciendis mollitia doloremque aliquid quae assumenda, numquam eum esse placeat error maxime nostrum dolorum. Consectetur, necessitatibus quibusdam similique incidunt tenetur minus iusto non. Odit voluptates modi hic, ratione maxime atque, molestiae quas consequatur, aliquam esse at? Maiores dicta deleniti quisquam doloribus dolores at mollitia similique quae optio ipsa laudantium, doloremque accusantium rem, culpa dignissimos reiciendis consequuntur quidem? Hic libero veritatis facilis, sed cumque vero aliquam excepturi blanditiis molestias eaque corporis distinctio id qui voluptatum ipsum dicta minus voluptate adipisci consequatur exercitationem obcaecati officia deserunt. Odio adipisci beatae explicabo, quaerat quo magni reiciendis porro itaque natus doloribus in odit corporis illo perspiciatis. Illum saepe quidem debitis maiores dignissimos eveniet porro vel nemo quisquam? Recusandae architecto est esse atque quos nesciunt non quam, iste delectus! Maxime fugit consectetur delectus id doloribus, eos sint laboriosam totam enim consequuntur. Labore ex dolore fugit veniam, illo mollitia repellat, provident, alias voluptatem omnis cum. Maiores voluptatibus quam fugiat, natus, adipisci nobis amet, perspiciatis molestiae tempora labore, vero accusamus dolores blanditiis quasi. Aspernatur quibusdam quia ipsum corporis ipsam ut, iste culpa nemo quo unde ullam veniam eos at, quis quasi sunt accusantium, nihil repudiandae est laborum magnam magni cumque impedit. Nisi debitis hic non deserunt mollitia maiores laboriosam cum vel eaque unde asperiores voluptate recusandae odit, commodi, veniam! Atque cumque nesciunt nulla vitae. Consectetur alias, quod, libero dignissimos, tenetur delectus velit dolores quo earum reprehenderit eaque quia laborum! Amet, assumenda. Iste placeat amet voluptate, enim error est magnam praesentium labore dolorum quas expedita animi iure ipsam nobis qui ex adipisci velit dolores vitae totam obcaecati accusantium facere nulla tempora. Nostrum porro sequi et quasi? Nostrum animi esse deserunt minima nam unde vitae sit cum in, itaque reprehenderit mollitia perspiciatis repellendus molestiae assumenda totam quisquam modi iusto at a cumque ea ad sequi, ipsum. Veniam nemo iure neque ex deserunt repudiandae perspiciatis accusamus sed eum in.</div>
+	</div>
+	<header class="header">
+		<div class="panel border-bottom">
+			<div class="container row">
+				<div class="panel__logo col"><img src="upload/logo.png" alt=""></div>
+				<div class="panel__desc col">Производство и доставка мультифункциональных пластиковых окон в Челябинске</div>
+				<div class="panel__callback col">
+					<div class="panel__phone Oswald"><a href="tel:+73512420573">+7 (351) 242 05 73</a></div>
+					<a data-fancybox data-src="#popup-white" href="javascript:;" class="panel__button button button_red button_small button_block"><span><i class="icon icon-phone-red"></i></span> Обратный звонок</a>
+				</div>
+			</div>
+		</div>
+		<div class="header__wrap">
+			<div class="container">
+				<div class="header__title Oswald ttu tac">Экономьте на электричестве и отоплении до 38% <br />с <span class="color-red">теплосберегающими окнами</span> от лидера уральского региона</div>
+				<div class="header__desc">Производитель и официальный партнер</div>
+				<div class="row">
+					<div class="header__list col col-2 li">
+						<ul>
+							<li><span class="color-red">Экономия</span> электроэнергии до <span class="color-red">38%</span></li>
+							<li>Сокращение теплопотерь на <span class="color-red">97%</span></li>
+							<li>Тепло зимой, прохладно летом</li>
+						</ul>
+					</div>
+					<div class="header__text col col-2 border-bottom">
+						<p>Закажите третье окно <br />на профилях KBE или <br />Rehau и получите <br />в <span class="color-red">ПОДАРОК</span></p>
+						<p>Набор по уходу за окнами, детский замок или <br />опцию “теплое окно”.</p>
+						<a href="#gift" class="go-to header__button button button_green button_small"><span><i class="icon icon-giftbox"></i></span>ПОЛУЧИТЬ ПОДАРОК</a>
+						<div class="header__image"><img src="upload/window.png" alt=""></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<main class="main">
+		<div class="gost">
+			<div class="container">
+				<div class="gost__title title">Знаете ли вы, что <span class="color-red">более 60%</span> пластиковых окон не соответствуют стандартам ГОСТ?</div>
+				<div class="row">
+					<div class="gost__col col col-2">Наверняка вы наслышаны о недобросовестных фирмах, которые заливают о качестве, выуживают из покупателя деньги, а потом выполняют работу так плохо, что на окна нельзя смотреть без слез.</div>
+					<div class="gost__col col col-2"><strong>В итоге</strong> - дует из всех щелей, фурнитура разваливается уже через неделю. Зимой в квартире лютый холод, а летом без кондиционера невозможно дышать.</div>
+				</div>
+			</div>
+		</div>
+		<div class="bad border-bottom">
+			<div class="container">
+				<div class="bad__title title">Как распознать недобросовестную фирму?</div>
+				<div class="bad__icons row">
+					<div class="bad__col col col-4">
+						<div class="bad__item">
+							<div class="bad__icon"><i class="icon icon-guarantee-1"></i></div>
+							<div class="bad__text">Нет гарантии или она минимальна (1-2 года)</div>
+						</div>
+					</div>
+					<div class="bad__col col col-4">
+						<div class="bad__item">
+							<div class="bad__icon"><i class="icon icon-inbox"></i></div>
+							<div class="bad__text">Нет документови <br>знака качества</div>
+						</div>
+					</div>
+					<div class="bad__col col col-4">
+						<div class="bad__item">
+							<div class="bad__icon"><i class="icon icon-guarantee-2"></i></div>
+							<div class="bad__text">Нет официального <br>договора с клиентом</div>
+						</div>
+					</div>
+					<div class="bad__col col col-4">
+						<div class="bad__item">
+							<div class="bad__icon"><i class="icon icon-information"></i></div>
+							<div class="bad__text">Мало информации о производителе окон, комплектующих, профиля, фурнитуры</div>
+						</div>
+					</div>
+				</div>
+				<div class="bad__form form">
+					<div class="form__title">
+						<p>Не знаете, какие окна выбрать?</p>
+						<p>Оставьте заявку прямо сейчас и получите бесплатную консультацию специалиста.</p>
+					</div>
+					<div class="form__elements fz0">
+						<form>
+							<input type="text" class="form__input input input_white" placeholder="Ваше имя" name="name">
+							<input type="tel" class="form__input input input_white input_phone" placeholder="Ваш контактный номер телефона" required="required" name="phone">
+							<button class="form__button button button_green button_big button_inline"><span><i class="icon icon-mail-green"></i></span>ОТПРАВИТЬ ЗАЯВКУ</button>
+							<div class="policy">
+								<div class="checkbox" requred>
+									<input type="checkbox" required=""><label>Заполняя данную форму, Вы соглашаетесь с <a data-fancybox data-src="#popup-policy" href="javascript:;">политикой конфидициальности</a> нашего сайта.</label>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="ready">
+			<div class="container">
+				<div class="ready__title title">Готовые к установке энергосберегающие окна</div>
+				<div id="tabs">
+					<div class="ready__nav">
+						<ul>
+							<li><a href="#tab-1" class="border-bottom">Тип Изотерм</a></li>
+							<li><a href="#tab-2" class="border-bottom">Тип Комфорт</a></li>
+							<li><a href="#tab-3" class="border-bottom">Тип Мультипро</a></li>
+							<li><a href="#tab-4" class="border-bottom">Тип Стандарт</a></li>
+						</ul>
+					</div>
+					<div class="ready__content">
+						<div class="ready__tab" id="tab-1">
+							<div class="row">
+								<div class="ready__col col col-4">
+									<div class="ready__item border-bottom">
+										<div class="ready__subtitle">Тепло зимой</div>
+										<div class="ready__text">Благодаря особому энергосберегающему напылению инфракрасное излучение отражается обратно внутрь помещения, удерживая естественное тепло дома. Тем самым обеспечивается высокая теплоизоляция даже при большой площади остекления.  </div>
+									</div>
+								</div>
+								<div class="ready__col col col-4">
+									<div class="ready__item border-bottom">
+										<div class="ready__subtitle">Прохладно летом</div>
+										<div class="ready__text">Напыление отражает инфракрасное тепловое излучение и не позволяет солнцу нагревать поверхности в помещении.   Окна с энергосберегающим стеклом позволяют меньше пользоваться кондиционерами.</div>
+									</div>
+								</div>
+								<div class="ready__col col col-4">
+									<div class="ready__item border-bottom">
+										<div class="ready__subtitle">Комплексная защита</div>
+										<div class="ready__text">Благодаря особой пленке стекло разбить практически невозможно - это надежная защита от вандалов извне. Его невозможно случайно разбить - это 100% защита изнутри от игр резвого шалуна.</div>
+									</div>
+								</div>
+								<div class="ready__col col col-4">
+									<div class="ready__item border-bottom">
+										<div class="ready__subtitle">Комфорт и тишина</div>
+										<div class="ready__text">Лучшее решение для городской квартиры, если окна выходят на автостраду - новые технологии стекла поглощают звуки улицы и оберегают покой и тишину ее обитателей.</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="ready__tab" id="tab-2">
+							<div class="row">
+								<div class="ready__col col col-4">
+									<div class="ready__item border-bottom">
+										<div class="ready__subtitle">Тепло зимой</div>
+										<div class="ready__text">Уникальное покрытие отражает тепловую энергию от нагревательных приборов внутрь помещения, поэтому комната остывает гораздо медленнее.  </div>
+									</div>
+								</div>
+								<div class="ready__col col col-4">
+									<div class="ready__item border-bottom">
+										<div class="ready__subtitle">Экономия до 45%</div>
+										<div class="ready__text">Технология позволяет сэкономить на отоплении до 45%, что особенно актуально для частных и многоквартирных домов с индивидуальными счетчиками на отопление</div>
+									</div>
+								</div>
+								<div class="ready__col col col-4">
+									<div class="ready__item border-bottom">
+										<div class="ready__subtitle">Отсутствие сквозняков</div>
+										<div class="ready__text">Использование специального стекла устраняет образование сквозняков, возникающих из-за перепада температуры поверхности стеклопакета и в помещении. </div>
+									</div>
+								</div>
+								<div class="ready__col col col-4">
+									<div class="ready__item border-bottom">
+										<div class="ready__subtitle">Комфорт</div>
+										<div class="ready__text">Зимой от окна не тянет холодом. Очень низкая вероятность образования конденсата и изморози в краевых зонах окна.</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="ready__tab" id="tab-3">
+							<div class="row">
+								<div class="ready__col col col-4">
+									<div class="ready__item border-bottom">
+										<div class="ready__subtitle">Тепло в любую погоду</div>
+										<div class="ready__text">С энергосберегающим покрытием Top N+® окна всегда остаются теплыми, даже на ощупь.   Температура в доме остается комфортной, и при большой площади остекления - вы сокращаете затраты на отопление зимой и на кондиционирование летом.</div>
+									</div>
+								</div>
+								<div class="ready__col col col-4">
+									<div class="ready__item border-bottom">
+										<div class="ready__subtitle">Защита от выгорания</div>
+										<div class="ready__text">Окно с технологией Stopray Neo® пропускает в дом только видимые глазу солнечные лучи и задерживает невидимое инфракрасное излучение, которое нагревает поверхности в помещении.   Свет из окон становится мягким - поверхности не выгорают.</div>
+									</div>
+								</div>
+								<div class="ready__col col col-4">
+									<div class="ready__item border-bottom">
+										<div class="ready__subtitle">Тишина</div>
+										<div class="ready__text">Окна МультиПро снижают шум автострады до уровня шепота. Благодаря особону напылению стеклопакеты «Оптима MultiPRO» способны поглощать звуки улицы до 40 Дб.</div>
+									</div>
+								</div>
+								<div class="ready__col col col-4">
+									<div class="ready__item border-bottom">
+										<div class="ready__subtitle">Безопасность</div>
+										<div class="ready__text">Защищены от взлома и всегда остаются безопасными для жильцов. Ударопрочные стекла гарантируют защиту дома изнутри и снаружи. Особые внутренние слои пленки делают стекло очень прочным.  </div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="ready__tab" id="tab-4">
+							<div class="row">
+								<div class="ready__col col col-4">
+									<div class="ready__item border-bottom">
+										<div class="ready__subtitle">Экономичность</div>
+										<div class="ready__text">Особое нано напыление придает стеклу энергосберегающие качества - не пропускают тепло изнутри зимой и жару летом. Благодаря чему вы экономите на отоплении и кондицонировании помещений.</div>
+									</div>
+								</div>
+								<div class="ready__col col col-4">
+									<div class="ready__item border-bottom">
+										<div class="ready__subtitle">Надежность</div>
+										<div class="ready__text">Стекла с многослойной внутренней пленкой обеспечивают высокую степень безопасности. Такое окно замечательно подходит для детской, поскольку его очень сложно разбить в ходе шумных игр.  </div>
+									</div>
+								</div>
+								<div class="ready__col col col-4">
+									<div class="ready__item border-bottom">
+										<div class="ready__subtitle">Безопасность</div>
+										<div class="ready__text">Окна совершенно безопасны изнутри. Стекло невозможно случайно разбить. Даже на высоких этажах и в помещениях с большими окнами обитателям дома обеспечены безопасность и комфорт. </div>
+									</div>
+								</div>
+								<div class="ready__col col col-4">
+									<div class="ready__item border-bottom">
+										<div class="ready__subtitle">Защита от взлома</div>
+										<div class="ready__text">Окна Оптима защищены от взлома и всегда остаются безопасными для жильцов. Ударопрочные стеклопакеты с мультифункциональным триплексом гарантируют защиту дома изнутри и снаружи.</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="save border-bottom">
+			<div class="container">
+				<div class="save__title title">Как вы сохраняете тепло и экономите благодаря нашим окнам</div>
+				<div class="save__list row">
+					<div class="save__col col col-4">
+						<div class="save__item">На полированном стекле <span class="color-red">энергосберегающего</span> окна - тонкий слой напыления из никеля, хрома и серебра.</div>
+					</div>
+					<div class="save__col col col-4">
+						<div class="save__item">Он полностью пропускает свет и совершенно незаметен для человеческого глаза</div>
+					</div>
+					<div class="save__col col col-4">
+						<div class="save__item"><span class="color-red">Зимой</span> энергоэффективный слой отражает <span class="color-red">до 97%</span> теплового излучения обратно в помещение, тем самым удерживая <span class="color-red">тепло</span></div>
+					</div>
+					<div class="save__col col col-4">
+						<div class="save__item"><span class="color-red">Летом</span> такое напыление не пропускает к вам в дом инфракрасные лучи, сохраняет комфортную <span class="color-red">прохладу</span></div>
+					</div>
+				</div>
+				<div class="save__block">
+					<div class="save__text">Вы обходитесь без обогревателя и кондиционера, экономите тысячи рублей,не переплачиваете за электроэнергию.</div>
+					<a data-fancybox data-src="#popup-white" href="javascript:;" class="save__button button button_green button_big"><span><i class="icon icon-piggy-bank"></i></span>Хочу экономить!</a>
+				</div>
+			</div>
+		</div>
+		<div class="videos">
+			<div class="container">
+				<div class="videos__title title">Чтобы вам было комфортно дома, мы используем такие технологии</div>
+				<div class="videos__list row">
+					<div class="videos__col col col-3">
+						<div class="videos__item">
+							<div class="videos__subtitle border-bottom">Тепло и уют в доме <span class="color-red">Stipray NEO</span></div>
+							<div class="videos__frame"><iframe width="100%" height="250" src="https://www.youtube.com/embed/AuJUjTZK_v4" frameborder="0" allowfullscreen></iframe></div>
+						</div>
+					</div>
+					<div class="videos__col col col-3">
+						<div class="videos__item">
+							<div class="videos__subtitle border-bottom">Тепло и уют в доме <span class="color-red">Stipray NEO</span></div>
+							<div class="videos__frame"><iframe width="100%" height="250" src="https://www.youtube.com/embed/AuJUjTZK_v4" frameborder="0" allowfullscreen></iframe></div>
+						</div>
+					</div>
+					<div class="videos__col col col-3">
+						<div class="videos__item">
+							<div class="videos__subtitle border-bottom">Тепло и уют в доме <span class="color-red">Stipray NEO</span></div>
+							<div class="videos__frame"><iframe width="100%" height="250" src="https://www.youtube.com/embed/AuJUjTZK_v4" frameborder="0" allowfullscreen></iframe></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="price border-bottom">
+			<div class="container">
+				<div class="price__title title">Рассчитайте примерную стоимость</div>
+			
+				<div class="price__container">
+					<div class="price__subtitle">Выберите тип и размер окна</div>
+					<div class="price__wrap row">
+						<div class="price__windows col">
+							<div class="window window-1">
+								<div class="window__selected"></div>
+								<div class="window__list"><img src="upload/windows/0/1-1.png" alt="" class="window_active"><img src="upload/windows/0/1-2.png" alt=""></div>
+							</div>
+							<div class="window window-2">
+								<div class="window__selected"></div>
+								<div class="window__list"><img src="upload/windows/0/2-1.png" alt=""><img src="upload/windows/0/2-2.png" alt=""></div>
+							</div>
+							<div class="window window-3">
+								<div class="window__selected"></div>
+								<div class="window__list"><img src="upload/windows/0/3-1.png" alt=""><img src="upload/windows/0/3-2.png" alt=""></div>
+							</div>
+							<div class="window window-4">
+								<div class="window__selected"></div>
+								<div class="window__list"><img src="upload/windows/0/4-1.png" alt=""><img src="upload/windows/0/4-2.png" alt=""></div>
+							</div>
+						</div>
+						<div class="price__preview col">
+							<div class="price__img" id="windowArrea"></div>
+							<div class="price__count row">
+								<div class="price__count-name col">Цена окна с размерами:<span>3 069 Х 7 090 мм.</span></div>
+								<div class="price__count-sum col"><span>56 000</span> руб.</div>
+							</div>
+							<div class="price__form">
+								<div class="price__subtitle">Введите размеры вашего окна для просчета:</div>
+								<input type="text" class="price__input input input_white" placeholder="ширина" id="windowWidth" name="width">
+								<input type="text" class="price__input input input_white" placeholder="высота" id="windowHeight" name="height">
+								<input type="text" class="hidden" name="windowCount" id="windowCount">
+								<input type="text" class="hidden" name="windowType" id="windowType">
+							</div>
+						</div>
+						<div class="price__elements col">
+							<div class="from-group">
+								<div class="element">
+									<div class="element__title">Ламинация</div>
+									<div class="element__wrap">
+										<select name="laminaton">
+											<option value="1" selected="">Без ламинации</option>
+											<option value="2">Ламинация внутри</option>
+											<option value="3">Ламинация снаружи</option>
+											<option value="4">Ламинация внутри и снаружи</option>
+										</select>
+									</div>
+								</div>
+								<div class="element element_ml">
+									<div class="element__title">Цвет</div>
+									<div class="element__wrap">
+										<select name="color">
+											<option value="1"></option>
+											<option value="2"></option>
+											<option value="3"></option>
+											<option value="4"></option>
+											<option value="5"></option>
+											<option value="6"></option>
+											<option value="7"></option>
+											<option value="8"></option>
+											<option value="9"></option>
+											<option value="10"></option>
+											<option value="11"></option>
+											<option value="12"></option>
+											<option value="13"></option>
+											<option value="14"></option>
+											<option value="15"></option>
+											<option value="16"></option>
+											<option value="17"></option>
+										</select>
+									</div>
+								</div>
+							</div>
+							<div class="from-group" id="typeWindow">
+								<div class="radio"><input type="radio" name="type" value="1" checked=""><label>Энергосберегающие</label></div>
+								<div class="radio"><input type="radio" name="type" value="2"><label>Мультифункция</label></div>
+								<div class="radio radio_mb0"><input type="radio" name="type" value="3"><label>Шумоизолирующие</label></div>
+								<div class="radio radio_mb0"><input type="radio" name="type" value="4"><label>Антивандальные</label></div>
+							</div>
+							<div class="from-group from-group_standart" id="typeProfil">
+								<div class="price__subtitle">Профиль:</div>
+								<div class="radio"><input type="radio" name="profile" value="1" checked=""><label><img src="upload/company/rehau.png" alt=""></label></div>
+								<div class="radio"><input type="radio" name="profile" value="2"><label><img src="upload/company/kbe.png" alt=""></label></div>
+								<div class="radio"><input type="radio" name="profile" value="3"><label><img src="upload/company/knipping.png" alt=""></label></div>
+							</div>
+							<div class="from-group from-group_standart" id="typeFyrnityra">
+								<div class="price__subtitle">Фурнитура:</div>
+								<div class="radio"><input type="radio" name="fittings" value="1"><label><img src="upload/company/roto.png" alt=""></label></div>
+								<div class="radio"><input type="radio" name="fittings" value="2"><label><img src="upload/company/wink-haus.png" alt=""></label></div>
+								<div class="radio"><input type="radio" name="fittings" value="3" checked=""><label><img src="upload/company/siegenia.png" alt=""></label></div>
+							</div>
+						</div>
+					</div>
+					<a data-fancybox data-src="#popup-white-calc" href="javascript:;" class="price__button button button_red button_large"><span><i class="icon icon-calculator"></i></span>рассчитать ваше окно</a>
+				</div>
+			</div>
+		</div>
+		<div class="about">
+			<div class="container">
+				<div class="about__title title">Компания “Окна Оптима”</div>
+				<div class="about__list row">
+					<div class="about__item col col-6">
+						<div class="about__subtitle">8 лет</div>
+						<div class="about__text">На рынке России</div>
+					</div>
+					<div class="about__item col col-6">
+						<div class="about__subtitle">ТОП 5</div>
+						<div class="about__text">Крупнейших переработчиков по УрФО</div>
+					</div>
+					<div class="about__item col col-6">
+						<div class="about__subtitle">42968</div>
+						<div class="about__text">окон установлено только за 2017 год</div>
+					</div>
+					<div class="about__item col col-6">
+						<div class="about__subtitle">Более 1000</div>
+						<div class="about__text">окон выпускается ежедневно</div>
+					</div>
+					<div class="about__item col col-6">
+						<div class="about__subtitle">Более 500</div>
+						<div class="about__text">компаний - бизнес партнеров</div>
+					</div>
+					<div class="about__item col col-6">
+						<div class="about__subtitle">4000 м2</div>
+						<div class="about__text">Общая площадь производства</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="trusted border-bottom">
+			<div class="container">
+				<div class="trusted__title title">Почему нам можно  доверять</div>
+				<div class="trusted__list fz0">
+					<div class="trusted__item">
+						<div class="trusted__image"><img src="upload/tusted/1.png" alt=""></div>
+						<div class="trusted__content">
+							<p>Мы не маленький цех по сборке в гараже.</p>
+							<p>У нас собственный завод по сборке металлопластиковых окон.</p>
+							<p>Площадь производства более 2 000 кв.м.</p>
+							<p>В производстве заняты более 30 человек.</p>
+							<p>Общий персонал фирмы превышает 50 человек.</p>
+							<p>Мы не можем позволить себе выпускать низкокачественный продукт!</p></div>
+					</div>
+					<div class="trusted__item">
+						<div class="trusted__content unhidden">Профильные системы и комплектующие от <strong>ведущих мировых производителей</strong> - Rehau, KBE, Roto, Winkhaus, Siegenia.</div>
+						<div class="trusted__image"><img src="upload/tusted/2.png" alt=""></div>
+						<div class="trusted__content hidden">Профильные системы и комплектующие от <strong>ведущих мировых производителей</strong> - Rehau, KBE, Roto, Winkhaus, Siegenia.</div>
+					</div>
+					<div class="trusted__item">
+						<div class="trusted__image"><img src="upload/tusted/3.png" alt=""></div>
+						<div class="trusted__content">Выделенный <strong>Отдел технического контроля</strong> - каждое изделие проходит многоступенчатую проверку на соответствие стандртам.</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="convenience">
+			<div class="container">
+				<div class="convenience__title title">Все для вашего удобства и спокойствия</div>
+				<div class="convenience__list row">
+					<div class="convenience__item col col-4">
+						<div class="convenience__icon"><i class="icon icon-guarantee-1-red"></i></div>
+						<div class="convenience__subtitle">Гарантия</div>
+						<div class="convenience__text">5 лет гарантия по ГОСТу</div>
+					</div>
+					<div class="convenience__item col col-4">
+						<div class="convenience__icon"><i class="icon icon-inbox-red"></i></div>
+						<div class="convenience__subtitle">Документы</div>
+						<div class="convenience__text">Полный комплект документов + чек у вас на руках</div>
+					</div>
+					<div class="convenience__item col col-4">
+						<div class="convenience__icon"><i class="icon icon-guarantee-2-red"></i></div>
+						<div class="convenience__subtitle">Сертификация</div>
+						<div class="convenience__text">Вся продукция прошла сертификацию</div>
+					</div>
+					<div class="convenience__item col col-4">
+						<div class="convenience__icon"><i class="icon icon-information-red"></i></div>
+						<div class="convenience__subtitle">Инновации</div>
+						<div class="convenience__text">Использование лучших современных технологий</div>
+					</div>
+				</div>
+				<div class="convenience__form form" id="convenience-form">
+					<div class="form__title">
+						<p>Хотите уже завтра любоваться шикарным видом из нового окна?</p>
+						<p>Оставьте заявку на <strong>БЕСПЛАТНЫЙ</strong> замер прямо сейчас</p>
+					</div>
+					<div class="form__elements fz0">
+						<form>
+							<input type="text" class="form__input input input_white" placeholder="Ваше имя" name="name">
+							<input type="tel" class="form__input input input_white input_phone" placeholder="Ваш контактный номер телефона" required="required" name="phone">
+							<button class="form__button button button_green button_big button_inline"><span><i class="icon icon-mail-green"></i></span>ОТПРАВИТЬ ЗАЯВКУ</button>
+							<div class="policy">
+								<div class="checkbox" requred>
+									<input type="checkbox" required=""><label>Заполняя данную форму, Вы соглашаетесь с <a data-fancybox data-src="#popup-policy" href="javascript:;">политикой конфидициальности</a> нашего сайта.</label>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="confidence">
+			<div class="container">
+				<div class="confidence__title title">В чем еще вы можете быть уверены</div>
+				<div class="confidence__list row">
+					<div class="confidence__col col col-2 li">
+						<ul>
+							<li>В безопасности - благодаря системе триплекс наши окна не разбиваются даже если бросить увесистый камень</li>
+							<li>В быстрой установке - монтаж 1-го окна занимает не более 3-х часов</li>
+							<li>В быстром получении - доставляем продукцию в более чем 40 городов России собственным транспортом.</li>
+						</ul>
+					</div>
+					<div class="confidence__col col col-2 li">
+						<ul>
+							<li>В цене с первых рук - мы сами производим окна, регулируем цены так, чтобы они были доступны каждому </li>
+							<li>В чистоте - мы убираем все сами, вы просто отдыхаете и любуетесь новыми окнами</li>
+							<li>В качестве - после изготовления каждое окно проходит технические испытания, поэтому к вам попадает 100% качественный товар</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="advantages">
+			<div class="container">
+				<div class="advantages__title title">Наши энергосберегающие окна</div>
+				<div class="advantages__list row">
+					<div class="advantages__item col col-3">
+						<div class="advantages__icon"><i class="icon icon-nose"></i></div>
+						<div class="advantages__text">Не пахнут</div>
+					</div>
+					<div class="advantages__item col col-3">
+						<div class="advantages__icon"><i class="icon icon-wind"></i></div>
+						<div class="advantages__text">Не продуваются</div>
+					</div>
+					<div class="advantages__item col col-3">
+						<div class="advantages__icon"><i class="icon icon-window"></i></div>
+						<div class="advantages__text">Крепкая фурнитура</div>
+					</div>
+				</div>
+				<div class="advantages__wrap">
+					<div class="advantages__wrap-text">Если вы заметите какой-либо запах, щели либо непрочность крепления,сообщите нам -  все исправим совершенно бесплатно.</div>
+					<a data-fancybox data-src="#popup-white" href="javascript:;" class="advantages__wrap-button button button_green button_large"><span><i class="icon icon-ruler"></i></span>Оставить заявку на бесплатный замер</a>
+				</div>
+			</div>
+		</div>
+		<div class="individuality">
+			<div class="container">
+				<div class="individuality__title title">Подчеркните индивидуальность вашего жилья</div>
+				<div class="individuality__wrap">
+					<div class="individuality__line">
+						<div class="individuality__subtitle">Разнообразная цветовая палитра</div>
+						<div class="individuality__list clearfix">
+							<div class="individuality__item"><img src="upload/product.png" alt=""></div>
+							<div class="individuality__item"><img src="upload/product.png" alt=""></div>
+							<div class="individuality__item"><img src="upload/product.png" alt=""></div>
+							<div class="individuality__item"><img src="upload/product.png" alt=""></div>
+						</div>
+					</div>
+					<div class="individuality__line">
+						<div class="individuality__subtitle">Оригинальная форма</div>
+						<div class="individuality__list clearfix">
+							<div class="individuality__item"><img src="upload/product.png" alt=""></div>
+							<div class="individuality__item"><img src="upload/product.png" alt=""></div>
+							<div class="individuality__item"><img src="upload/product.png" alt=""></div>
+							<div class="individuality__item"><img src="upload/product.png" alt=""></div>
+						</div>
+					</div>
+					<div class="individuality__line">
+						<div class="individuality__subtitle">Декоративная раскладка на любой вкус</div>
+						<div class="individuality__list clearfix">
+							<div class="individuality__item"><img src="upload/product.png" alt=""></div>
+							<div class="individuality__item"><img src="upload/product.png" alt=""></div>
+							<div class="individuality__item"><img src="upload/product.png" alt=""></div>
+							<div class="individuality__item"><img src="upload/product.png" alt=""></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="gift" id="gift">
+			<div class="container">
+				<div class="gift__title">Хотите подарок?</div>
+				<div class="gift__text">Закажите третье окно на профилях KBE или Rehau и выбирайте - набор для ухода за окнами, детский замок или опцию “теплое окно”. </div>
+				<a data-fancybox data-src="#popup-white" href="javascript:;" class="gift__button button button_green button_large"><span><i class="icon icon-giftbox-big"></i></span>Сделать заказ и выбрать подарок</a>
+			</div>
+		</div>
+		<div class="portfolio">
+			<div class="container">
+				<div class="portfolio__title title">Энергосберегающие окна, которые нашли своих хозяев</div>
+				<div class="portfolio__list">
+					<div class="portfolio__item"><img src="upload/portfolio/1.png" alt=""></div>
+					<div class="portfolio__item"><img src="upload/portfolio/2.png" alt=""></div>
+					<div class="portfolio__item"><img src="upload/portfolio/3.png" alt=""></div>
+					<div class="portfolio__item"><img src="upload/portfolio/4.png" alt=""></div>
+				</div>
+			</div>
+		</div>
+		<div class="reviews">
+			<div class="container">
+				<div class="reviews__title title">Отзывы клиентов</div>
+				<div class="reviews__list row">
+					<div class="reviews__col col col-2">
+						<div class="reviews__item row">
+							<div class="reviews__image col"><img src="upload/reviews/1.png" alt=""></div>
+							<div class="reviews__content col">
+								<div class="reviews__subtitle">Все сделали вовремя</div>
+								<div class="reviews__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu.</div>
+								<div class="reviews__data">Ангелина, Прекрасная, г. Москва</div>
+							</div>
+						</div>
+						<div class="reviews__item row">
+							<div class="reviews__image col"><img src="upload/reviews/1.png" alt=""></div>
+							<div class="reviews__content col">
+								<div class="reviews__subtitle">Все сделали вовремя</div>
+								<div class="reviews__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu.</div>
+								<div class="reviews__data">Ангелина, Прекрасная, г. Москва</div>
+							</div>
+						</div>
+					</div>
+					<div class="reviews__col col col-2">
+						<div class="reviews__item row">
+							<div class="reviews__image col"><img src="upload/reviews/1.png" alt=""></div>
+							<div class="reviews__content col">
+								<div class="reviews__subtitle">Все сделали вовремя</div>
+								<div class="reviews__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu.</div>
+								<div class="reviews__data">Ангелина, Прекрасная, г. Москва</div>
+							</div>
+						</div>
+						<div class="reviews__item row">
+							<div class="reviews__image col"><img src="upload/reviews/1.png" alt=""></div>
+							<div class="reviews__content col">
+								<div class="reviews__subtitle">Все сделали вовремя</div>
+								<div class="reviews__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu.</div>
+								<div class="reviews__data">Ангелина, Прекрасная, г. Москва</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="totals">
+			<div class="container">
+				<div class="totals__title title">В итоге вы получаете</div>
+				<div class="totals__list row">
+					<div class="totals__col col col-2 li">
+						<ul>
+							<li>Мультифункциональное энергосберегающее окно <span class="color-red">по цене обычного</span></li>
+							<li><span class="color-red">Бесплатную</span> консультацию по установке окон</li>
+							<li><span class="color-red">Бесплатные</span> услуги замерщика</li>
+							<li>Гарантию <span class="color-red">по ГОСТу</span> на 5 лет</li>
+							<li><span class="color-red">Документы и чек</span> на руки</li>
+						</ul>
+					</div>
+					<div class="totals__col col col-2 li">
+						<ul>
+							<li>Окна на любой вкус: <span class="color-red">разнообразие по цвету, форме, декорациям</span></li>
+							<li><span class="color-red">Тепло</span> зимой и <span class="color-red">прохладу</span> летом</li>
+							<li><span class="color-red">Безопасность</span> от взлома</li>
+							<li><span class="color-red">Чистоту</span> после установки</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="comfort">
+			<div class="container">
+				<div class="comfort__title">Для вас важен комфорт?</div>
+				<div class="comfort__text">Оставьте заявку на бесплатный замер и мы подберем для вас лучший вариант.</div>
+				<a data-fancybox data-src="#popup-white" href="javascript:;" class="comfort__button button button_green button_large"><span><i class="icon icon-mail-green"></i></span>Оставить заявку</a>
+			</div>
+		</div>
+		<div class="certificates">
+			<div class="container">
+				<div class="certificates__title title">Сертификаты и награды</div>
+				<div class="certificates__list">
+					<div class="certificates__item"><img src="upload/certificates/1.png" alt=""></div>
+					<div class="certificates__item"><img src="upload/certificates/1.png" alt=""></div>
+					<div class="certificates__item"><img src="upload/certificates/1.png" alt=""></div>
+					<div class="certificates__item"><img src="upload/certificates/1.png" alt=""></div>
+					<div class="certificates__item"><img src="upload/certificates/1.png" alt=""></div>
+				</div>
+			</div>
+		</div>
+		<div class="bottom-form" id="bottom-form">
+			<div class="container row">
+				<div class="bottom-form__content col">
+					<p>Остались вопросы? Задайте их специалисту по окнам: </p>
+					<p><a href="tel:+73512420573">+7 (351) 242 05 73</a></p>
+					<p>Или оправьте свои данные и мы сами перезвоним вам:</p>
+				</div>
+				<div class="bottom-form__wrap col">
+					<form>
+						<input type="text" class="bottom-form__input input input_white" placeholder="Ваше имя" name="name">
+						<input type="tel" class="bottom-form__input input input_white input_phone" placeholder="Ваш контактный номер телефона" required="required" name="phone">
+						<div class="policy">
+							<div class="checkbox" requred>
+								<input type="checkbox" required=""><label>Заполняя данную форму, Вы соглашаетесь с <a data-fancybox data-src="#popup-policy" href="javascript:;">политикой конфидициальности</a> нашего сайта.</label>
+							</div>
+						</div>
+						<button class="bottom-form__button button button_green button_big button_block"><span><i class="icon icon-mail-green"></i></span>ОТПРАВИТЬ ЗАЯВКУ</button>
+					</form>
+				</div>
+			</div>
+		</div>
+		<div class="contacts row border-bottom">
+			<div class="contacts__map col col-2"><script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A75039a46f209c31814d49253e6272c0781bcc5003a70bad0b7d763f564a1f2a7&amp;width=100%25&amp;height=440&amp;lang=ru_RU&amp;scroll=true"></script></div>
+			<div class="contacts__content col col-2">
+				<div class="contacts__title title">Как нас найти</div>
+				<div class="contacts__line">
+					<u><i class="icon icon-marker"></i></u>
+					<p>Адрес: г. 454079 Челябинск, ул. Ленина 35, оф.26</p>
+				</div>
+				<div class="contacts__line">
+					<u><i class="icon icon-clock"></i></u>
+					<p>График работы: Понедельник-пятница с 9:00 до 18:00 Суббота, воскресенье - выходные дни</p>
+				</div>
+				<div class="contacts__image"><img src="upload/profiles.png" alt=""></div>
+			</div>
+		</div>
+	</main>
+	<footer class="footer">
+		<div class="container row">
+			<div class="footer__logo col"><img src="upload/logo.png" alt=""></div>
+			<div class="footer__desc col">Производство и доставка мультифункциональных пластиковых окон в Челябинске</div>
+			<div class="footer__contacts col">
+				<div class="footer__socials">
+					<ul>
+						<li><a href="" target="_blank"><i class="icon icon-facebook"></i></a></li>
+						<li><a href="" target="_blank"><i class="icon icon-twitter"></i></a></li>
+						<li><a href="" target="_blank"><i class="icon icon-in"></i></a></li>
+						<li><a href="" target="_blank"><i class="icon icon-vk"></i></a></li>
+						<li><a href="" target="_blank"><i class="icon icon-ok"></i></a></li>
+						<li><a href="" target="_blank"><i class="icon icon-youtube"></i></a></li>
+						<li><a href="" target="_blank"><i class="icon icon-instagram"></i></a></li>
+					</ul>
+				</div>
+				<div class="footer__copy">Все права защищены © 2015</div>
+			</div>
+		</div>
+	</footer>
+</body>
+</html>
